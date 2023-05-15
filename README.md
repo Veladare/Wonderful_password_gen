@@ -1,1 +1,1 @@
-# Wonderful_password_gen
+# Password_generator
