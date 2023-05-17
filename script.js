@@ -45,10 +45,10 @@ confirmupper = confirm("add upper case characters?");
 confirminterger = confirm("add numbers?");
 confirmspecial = confirm("add special characters?");
 
-}if (confirmlower == false, confirmupper == false, confirminterger == false, confirmspecial == false) {
+}if (!confirmlower && !confirmupper && !confirminterger && !confirmspecial) {
   userchoice = alert (" no items were selected!");
 
-}else if (confirmlower == true, confirmupper == true, confirminterger == true, confirmspecial == true) {
+}else if (confirmlower && confirmupper && confirminterger && confirmspecial) {
   userchoice = lowercase + uppercase + interger + special;
   
 }
