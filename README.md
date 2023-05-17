@@ -26,4 +26,4 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshot
 
-![veladare github io_Wonderful_password_gen](https://github.com/Veladare/Wonderful_password_gen/assets/126302466/c80bfa68-a1a7-44b7-80ab-5485962e325a)
+ (https://github.com/Veladare/Wonderful_password_gen/assets/126302466/c80bfa68-a1a7-44b7-80ab-5485962e325a)
