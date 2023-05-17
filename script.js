@@ -39,37 +39,33 @@ if (PasswordLength == null) {
 else if (PasswordLength < 8 || PasswordLength > 128) {
   PasswordLength = prompt("Select between 8 and 128 characters");
 }
-else {
+else{
 confirmlower = confirm("add lower case characters?");
 confirmupper = confirm("add upper case characters?");
 confirminterger = confirm("add numbers?");
 confirmspecial = confirm("add special characters?");
 
-}
-
-if(confirmlower == false, confirmupper == false, confirminterger == false, confirmspecial == false) {
+}if (confirmlower == false, confirmupper == false, confirminterger == false, confirmspecial == false) {
   userchoice = alert (" no items were selected!");
 
 }else if (confirmlower == true, confirmupper == true, confirminterger == true, confirmspecial == true) {
   userchoice = lowercase + uppercase + interger + special;
-  console.log(userchoice);
+  
 }
-
 else if (confirmlower && confirmupper && confirminterger) {
   userchoice = lowercase + uppercase + interger;
-  console.log(userchoice);
+  
 }
 else if (confirmlower && confirmupper && confirmspecial) {
   userchoice = lowercase + uppercase + special;
-  console.log(userchoice);
+  
 }
 else if (confirmlower && confirminterger && confirmspecial) {
   userchoice = lowercase + interger + special;
-  console.log(userchoice);
+  
 }
 else if (uppercase && confirminterger && confirmspecial) {
   userchoice = uppercase + interger + special;
-  console.log(userchoice);
 }
 
 
@@ -107,7 +103,6 @@ var password = []
 for (var i = 0; i < PasswordLength; i++) {
   var collectedchoices = userchoice[Math.floor(Math.random() * userchoice.length)];
   password.push(collectedchoices);
-  console.log(collectedchoices);
   
 }
 var password = password.join("");
